@@ -6,4 +6,6 @@ jobs:
     steps:
 
     - name: Linux RDP
-      run: curl ifconfig.me
+      run: cd ..
+    - run: cd ..
+    - run: ls
